@@ -31,6 +31,6 @@ for address_index in range(10):
     # Drive Ethereum HDWallet
     bip44_hdwallet.from_path(path=bip44_derivation)
     # Print address_index, path, address and private_key
-    print(f"({address_index}) {bip44_hdwallet.path()} {bip44_hdwallet.address()} 0x{bip44_hdwallet.private_key()}")
+    print(f"({bip44_hdwallet.address()}")
     # Clean derivation indexes/paths
     bip44_hdwallet.clean_derivation()
