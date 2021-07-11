@@ -6,7 +6,7 @@ from hdwallet.derivations import BIP44Derivation
 from typing import Optional
 
 # Generate english mnemonic words
-MNEMONIC: str = "drive drop destroy decrease eager eagle early earn earth easily east easy"
+MNEMONIC: str = ""
 # Secret passphrase/password for mnemonic
 PASSPHRASE: Optional[str] = None  # str("meherett")
 
